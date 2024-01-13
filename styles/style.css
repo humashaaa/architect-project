@@ -153,14 +153,25 @@ align-items: center;
     background-color: #FF900E;
     border-radius: 8px;
     width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
 }
-.ten-years-badge h3{
+.ten-years-badge h2{
     font-size: 4rem;
     font-weight: 700;
-    padding: 40px
+    margin-top: 0;
 }
 .ten-years-badge p{
-    font-size: ;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+.feature-img img{
+    height:90%;
+   margin-left: 50px;
+    
 }
 
 
@@ -191,6 +202,41 @@ align-items: center;
     .team-img{
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
+    }
+    .features{
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px;
+    }
+    .section-title{
+        width: 20rem;
+    }
+    .card-item{
+        margin-bottom: 20px;
+    }
+    .card{
+        width: 20.5rem;
+height:10rem;
+padding: 15px;
+margin-bottom: 15px;
+    }
+    .feature-img img{
+       width: 100%;
+       margin: 10px;
+        
+    }
+    .ten-years-badge{
+        width: 12rem;
+        padding: 30px;
+        
+    }
+    .ten-years-badge h2{
+        font-size: 2rem;
+        
+    }
+    .ten-years-badge p{
+        font-size: 1rem;
+        
     }
     
 }
