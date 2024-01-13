@@ -114,7 +114,54 @@ nav li a {
     font-weight: 700;
 
 }
+/* featured section styles */
+.features{
+    display: flex;
+    gap: 100px;
+    margin: 130px 230px;
+}
+.featured-content{
+    margin-bottom: 25px;
+}
+.section-title{
+    width: 468px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+   padding-left: 20px;
 
+}
+.description{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.card-item{
+   margin-bottom: 25px;
+}
+.card{
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+width: 35.6rem;
+height: 8.6rem;
+padding: 50px;
+align-items: center;
+}
+.ten-years-badge{
+    color: #FFF;
+    background-color: #FF900E;
+    border-radius: 8px;
+    width: 342px;
+}
+.ten-years-badge h3{
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 40px
+}
+.ten-years-badge p{
+    font-size: ;
+}
 
 
 
